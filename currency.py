@@ -3,7 +3,7 @@ import requests
 API_KEY = 'fca_live_Q3qPte1loHt7w5s5VXl165g67y8oVTzU8NygzJVr'
 BASE_URL = f"https://api.freecurrencyapi.com/v1/latest?apikey={API_KEY}"
 
-CURRENCIES = ["SGD", "USD", "CAD", "EUR", "AUD"]
+CURRENCIES = ["SGD", "USD", "CAD", "EUR", "AUD", "MYR"]
 
 def convert_currency(base):
     # break down currencies into a string with ','
